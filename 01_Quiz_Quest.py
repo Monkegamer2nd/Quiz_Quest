@@ -211,10 +211,10 @@ while rounds_played < num_rounds:
         results = quiz_compare(guess, quiz_answer)
 
         if results == "lose":
-            feedback = f"Incorrect, the answer was {quiz_answer} {unit_type}²"
+            feedback = f"Incorrect, the answer was {quiz_answer} {unit_type}² ❌"
             rounds_lost += 1
         else:
-            feedback = "Correct!"
+            feedback = "Correct! ✅"
 
         round_feedback = f"{questions}: you were {feedback}"
         history_item = f"Question: {rounds_played + 1} - Was {round_feedback}"
@@ -256,10 +256,10 @@ while rounds_played < num_rounds:
         results = quiz_compare(guess, quiz_answer)
 
         if results == "lose":
-            feedback = f"Incorrect, the answer was {quiz_answer} {unit_type}"
+            feedback = f"Incorrect, the answer was {quiz_answer} {unit_type} ❌"
             rounds_lost += 1
         else:
-            feedback = "Correct!"
+            feedback = "Correct! ✅"
 
         round_feedback = f"{questions}: you were {feedback}"
         history_item = f"Question: {rounds_played + 1} - Was {round_feedback}"
