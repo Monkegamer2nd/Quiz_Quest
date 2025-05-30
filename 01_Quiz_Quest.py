@@ -144,7 +144,7 @@ print()
 
 # ask the user if they want tp see the instructions and display
 # them if requested
-want_instructions = string_checker("Do you want to see the instructions? ")
+want_instructions = string_checker("Do you want to see the instructions / formula list? ")
 
 # checks users enter yes (y) or no (n)
 if want_instructions == "yes":
